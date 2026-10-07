@@ -268,7 +268,9 @@ extends <a href="../../org/mases/jcobridge/netreflection/NetObjectEnumerable.htm
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code><a href="../../system/linq/Grouping_2.html" title="type parameter in Grouping_2">TKey</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../system/linq/Grouping_2.html#getKey--">getKey</a></span>()</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../system/linq/Grouping_2.html#getKey--">getKey</a></span>()</code>
+<div class="block">Gets the value of the .NET property Key.</div>
+</td>
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
@@ -410,8 +412,10 @@ extends <a href="../../org/mases/jcobridge/netreflection/NetObjectEnumerable.htm
            throws java.lang.Throwable</pre>
 <div class="block">Internal constructor. Use with caution</div>
 <dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>instance</code> - the underlying bridge object: it must be a <code>JCObject</code></dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code>java.lang.Throwable</code></dd>
+<dd><code>java.lang.Throwable</code> - if <code>instance</code> is not a <code>JCObject</code></dd>
 </dl>
 </li>
 </ul>
@@ -545,9 +549,14 @@ extends <a href="../../org/mases/jcobridge/netreflection/NetObjectEnumerable.htm
 <h4>getKey</h4>
 <pre>public&nbsp;<a href="../../system/linq/Grouping_2.html" title="type parameter in Grouping_2">TKey</a>&nbsp;getKey()
             throws java.lang.Throwable</pre>
+<div class="block">Gets the value of the .NET property Key.</div>
 <dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the value of the property</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code>java.lang.Throwable</code></dd>
+<dd><code>java.lang.Throwable</code> - if the call fails in the bridge or in the CLR</dd>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="https://learn.microsoft.com/dotnet/api/System.Linq.Grouping-2.Key" target="_top">.NET documentation</a></dd>
 </dl>
 </li>
 </ul>
